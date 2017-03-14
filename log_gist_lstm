@@ -1,0 +1,81 @@
+
+==============================================================================================================
+gist feature--test on test_set--lr:0.015--batch_size:60
+       
+==============================================================================================================
+Step 0: loss = 5.05(0.830 sec)
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:245] PoolAllocator: After 3876 get requests, put_count=3725 evicted_count=1000 eviction_rate=0.268456 and unsatisfied allocation rate=0.322755
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:257] Raising pool_size_limit_ from 100 to 110
+Step 10: loss = 5.11(0.202 sec)
+Step 20: loss = 5.04(0.192 sec)
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:245] PoolAllocator: After 4541 get requests, put_count=4702 evicted_count=1000 eviction_rate=0.212675 and unsatisfied allocation rate=0.189826
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:257] Raising pool_size_limit_ from 256 to 281
+Step 30: loss = 4.84(0.254 sec)
+Step 40: loss = 4.68(0.263 sec)
+Step 50: loss = 4.47(0.263 sec)
+Step 60: loss = 4.36(0.164 sec)
+Step 70: loss = 4.27(0.254 sec)
+Step 80: loss = 4.12(0.215 sec)
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:245] PoolAllocator: After 44949 get requests, put_count=45041 evicted_count=1000 eviction_rate=0.022202 and unsatisfied allocation rate=0.0215133
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:257] Raising pool_size_limit_ from 655 to 720
+Step 90: loss = 4.02(0.219 sec)
+Step 100: loss = 3.93(0.235 sec)
+Step 110: loss = 4.09(0.205 sec)
+Step 120: loss = 3.74(0.259 sec)
+Step 130: loss = 3.58(0.205 sec)
+Step 140: loss = 3.55(0.202 sec)
+Step 150: loss = 3.52(0.194 sec)
+Step 160: loss = 3.21(0.260 sec)
+Step 170: loss = 3.11(0.258 sec)
+Step 180: loss = 2.79(0.259 sec)
+Step 190: loss = 2.75(0.160 sec)
+Step 200: loss = 2.91(0.291 sec)
+Step 210: loss = 2.85(0.230 sec)
+Step 220: loss = 2.48(0.238 sec)
+Step 230: loss = 2.29(0.246 sec)
+Step 240: loss = 2.30(0.212 sec)
+Step 250: loss = 2.40(0.265 sec)
+Step 260: loss = 2.24(0.209 sec)
+Step 270: loss = 2.10(0.230 sec)
+Step 280: loss = 2.20(0.204 sec)
+Step 290: loss = 2.22(0.258 sec)
+Step 300: loss = 1.94(0.269 sec)
+Step 310: loss = 1.79(0.267 sec)
+Step 320: loss = 1.74(0.161 sec)
+Step 330: loss = 1.62(0.266 sec)
+Step 340: loss = 1.79(0.217 sec)
+Step 350: loss = 1.57(0.215 sec)
+Step 360: loss = 1.52(0.250 sec)
+Step 370: loss = 1.53(0.216 sec)
+Step 380: loss = 1.29(0.265 sec)
+Step 390: loss = 1.54(0.214 sec)
+Step 400: loss = 1.47(0.202 sec)
+Step 410: loss = 1.48(0.206 sec)
+Step 420: loss = 1.40(0.259 sec)
+Step 430: loss = 1.21(0.266 sec)
+Step 440: loss = 1.15(0.268 sec)
+Step 450: loss = 1.16(0.165 sec)
+Step 460: loss = 1.09(0.268 sec)
+Step 470: loss = 1.30(0.217 sec)
+Step 480: loss = 1.20(0.224 sec)
+Step 490: loss = 0.99(0.239 sec)
+Step 500: loss = 1.07(0.217 sec)
+Step 510: loss = 0.92(0.268 sec)
+Step 520: loss = 1.08(0.208 sec)
+Step 530: loss = 0.93(0.211 sec)
+Step 540: loss = 1.06(0.210 sec)
+Step 550: loss = 0.91(0.267 sec)
+Step 560: loss = 0.92(0.267 sec)
+Step 570: loss = 0.87(0.277 sec)
+Step 580: loss = 0.88(0.158 sec)
+Step 590: loss = 0.79(0.256 sec)
+Step 600: loss = 0.94(0.223 sec)
+Step 610: loss = 0.77(0.217 sec)
+Step 620: loss = 0.73(0.233 sec)
+Step 630: loss = 0.99(0.212 sec)
+Step 640: loss = 0.71(0.274 sec)
+Done training for 5 epochs, 650 steps.
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fa02ae1ecd0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 7800  Num correct: 7496  Precision @ 1: 0.961026 
+
+Process finished with exit code 0

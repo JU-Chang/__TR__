@@ -1,0 +1,46 @@
+
+
+3.UnicodeDecodeError: 'ascii' codec can't decode byte 0xe6 in position 20: ordinal not in range(128)
+solution:
+# filename = FLAGS.train_dir+'/'+data_set_type+'/.tfrecords'
+  filename = os.path.join(FLAGS.train_dir,
+                          data_set_type+'.tfrecords')
+
+  filename = FLAGS.train_dir+'/'+data_set_type+'.tfrecords'
+
+4.loss为NaN
+问题原因：计算交叉熵的时候使用tf.nn.sparse_softmax_cross_entropy_with_logits函数
+solution:
+        具体查看函数说明，注意到 
+  # TODO(pcmurray) Raise an error when the label is not an index in
+  # [0, num_classes). Note: This could break users who call this with bad
+  # labels, but disregard the bad results.
+
+        那么问题来了，我的label是[1, num_classes]
+        把label取值改成[0,num_classes),NaN问题解决
+
+5.关于交叉熵函数
+http://geek.csdn.net/news/detail/126833(未解决，最后还是自己写了一个简单的)
+
+
+6.运行马上报错：
+Exception in thread Thread-3:
+...
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe6 in position 20: ordinal not in range(128)
+
+solution:检查训练数据的路径是否正确，数据是否存在
+
+
+7.添加dropout时，涉及图的分流控制
+1 ,如果使用tf.cond():
+lstm_cell_dropout = tf.nn.rnn_cell.DropoutWrapper(lstm_cell,
+                                              input_keep_prob=input_keep_prob,
+                                              output_keep_prob=output_keep_prob),
+lstm_cell = tf.cond(dropout,
+                        lambda: lstm_cell_dropout,
+                        lambda: lstm_cell)
+dropout 是bool类型的tensor ，sess.run的时候可以feed
+
+但是报错：AttributeError: 'DropoutWrapper' object has no attribute 'name'
+因为tf.cond实现过程会调用用到v.name （v在这里就是DropoutWrapper），无解
+2. 如果训练和测试两次调用LSTM，会提示重复使用 multiRNN出错 --》share variableb :https://www.tensorflow.org/versions/r0.11/how_tos/variable_scope/

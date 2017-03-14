@@ -1,0 +1,191 @@
+========================================================================================================================
+
+cnn feature--epoch5--lr0.01--batch60--training with dropout
+==========================================================================================================================
+
+
+Step 0: loss = 4.70(1.844 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe21d57b3d0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1068  Num correct: 116  Precision @ 1: 0.108614 
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:245] PoolAllocator: After 5077 get requests, put_count=4838 evicted_count=1000 eviction_rate=0.206697 and unsatisfied allocation rate=0.263738
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:257] Raising pool_size_limit_ from 100 to 110
+Step 10: loss = 4.61(0.959 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe1f012cd10>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 985  Num correct: 164  Precision @ 1: 0.166497 
+Step 20: loss = 3.86(0.815 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe2211f1390>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1115  Num correct: 240  Precision @ 1: 0.215247 
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:245] PoolAllocator: After 5211 get requests, put_count=5379 evicted_count=1000 eviction_rate=0.185908 and unsatisfied allocation rate=0.164076
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:257] Raising pool_size_limit_ from 256 to 281
+Step 30: loss = 3.27(0.650 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe1b0075e90>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1047  Num correct: 403  Precision @ 1: 0.384909 
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe1f013cf90>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+Step 40: loss = 2.59(0.950 sec)
+  Num examples: 951  Num correct: 430  Precision @ 1: 0.452156 
+Step 50: loss = 1.94(1.011 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe1913c4410>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1119  Num correct: 807  Precision @ 1: 0.721180 
+Step 60: loss = 1.50(0.947 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe186eea350>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 923  Num correct: 732  Precision @ 1: 0.793066 
+Step 70: loss = 1.30(0.931 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe191cd4a50>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1080  Num correct: 820  Precision @ 1: 0.759259 
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe18b7393d0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+Step 80: loss = 1.03(0.969 sec)
+  Num examples: 952  Num correct: 821  Precision @ 1: 0.862395 
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:245] PoolAllocator: After 52191 get requests, put_count=52192 evicted_count=1000 eviction_rate=0.01916 and unsatisfied allocation rate=0.0202717
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:257] Raising pool_size_limit_ from 655 to 720
+Step 90: loss = 0.82(0.841 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe18a6fbe10>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1020  Num correct: 872  Precision @ 1: 0.854902 
+Step 100: loss = 0.67(0.816 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe18ae32810>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1194  Num correct: 1050  Precision @ 1: 0.879397 
+Step 110: loss = 0.66(0.763 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe188164a50>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1156  Num correct: 1045  Precision @ 1: 0.903979 
+Step 120: loss = 0.60(0.718 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe185d043d0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1257  Num correct: 1101  Precision @ 1: 0.875895 
+Step 130: loss = 0.48(0.780 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe18114b9d0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1205  Num correct: 1114  Precision @ 1: 0.924481 
+Step 140: loss = 0.35(0.902 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe180e7b7d0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1049  Num correct: 986  Precision @ 1: 0.939943 
+Step 150: loss = 0.31(1.005 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe184072ed0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 952  Num correct: 901  Precision @ 1: 0.946429 
+Step 160: loss = 0.26(0.990 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe182e563d0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 961  Num correct: 907  Precision @ 1: 0.943809 
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe180489f10>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+Step 170: loss = 0.31(0.885 sec)
+  Num examples: 993  Num correct: 932  Precision @ 1: 0.938570 
+Step 180: loss = 0.31(0.907 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe17a01f750>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1099  Num correct: 1043  Precision @ 1: 0.949045 
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe178f44650>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+Step 190: loss = 0.29(1.098 sec)
+  Num examples: 979  Num correct: 941  Precision @ 1: 0.961185 
+Step 200: loss = 0.21(0.852 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe17b6caf10>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1265  Num correct: 1181  Precision @ 1: 0.933597 
+Step 210: loss = 0.28(1.023 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe1794da510>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1278  Num correct: 1199  Precision @ 1: 0.938185 
+Step 220: loss = 0.18(0.828 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe17defe0d0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1110  Num correct: 1073  Precision @ 1: 0.966667 
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe17cc6d9d0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+Step 230: loss = 0.20(0.844 sec)
+  Num examples: 1118  Num correct: 1077  Precision @ 1: 0.963327 
+Step 240: loss = 0.20(1.073 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe1787147d0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1085  Num correct: 1062  Precision @ 1: 0.978802 
+Step 250: loss = 0.15(0.788 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe17b6bcf50>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 908  Num correct: 883  Precision @ 1: 0.972467 
+Step 260: loss = 0.12(0.838 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe17720ded0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1215  Num correct: 1164  Precision @ 1: 0.958025 
+Step 270: loss = 0.15(0.933 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe175ff4390>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1124  Num correct: 1092  Precision @ 1: 0.971530 
+Step 280: loss = 0.14(0.820 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe174e18610>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 933  Num correct: 917  Precision @ 1: 0.982851 
+Step 290: loss = 0.13(0.767 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe172c825d0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 945  Num correct: 912  Precision @ 1: 0.965079 
+Step 300: loss = 0.16(1.017 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe171a6fb90>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1215  Num correct: 1175  Precision @ 1: 0.967078 
+Step 310: loss = 0.19(0.859 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe1708c9750>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 869  Num correct: 847  Precision @ 1: 0.974684 
+Step 320: loss = 0.15(0.835 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe1677850d0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1195  Num correct: 1163  Precision @ 1: 0.973222 
+Step 330: loss = 0.13(0.882 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe1665789d0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1068  Num correct: 1033  Precision @ 1: 0.967228 
+Step 340: loss = 0.12(0.781 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe16542f7d0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 883  Num correct: 869  Precision @ 1: 0.984145 
+Step 350: loss = 0.11(0.879 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe16424ccd0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1022  Num correct: 994  Precision @ 1: 0.972603 
+Step 360: loss = 0.11(1.130 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe16301e1d0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1097  Num correct: 1076  Precision @ 1: 0.980857 
+Step 370: loss = 0.15(1.219 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe161d39e50>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1245  Num correct: 1227  Precision @ 1: 0.985542 
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe160c9dfd0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+Step 380: loss = 0.12(1.091 sec)
+  Num examples: 1121  Num correct: 1100  Precision @ 1: 0.981267 
+Step 390: loss = 0.11(1.021 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe15f9abb10>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1290  Num correct: 1267  Precision @ 1: 0.982171 
+Step 400: loss = 0.08(0.924 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe16aeb6450>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 788  Num correct: 779  Precision @ 1: 0.988579 
+Step 410: loss = 0.08(0.824 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe169c87e90>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1103  Num correct: 1096  Precision @ 1: 0.993654 
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe168bbee90>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+Step 420: loss = 0.07(0.779 sec)
+  Num examples: 948  Num correct: 933  Precision @ 1: 0.984177 
+Step 430: loss = 0.07(0.790 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe15f1e9b90>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1224  Num correct: 1204  Precision @ 1: 0.983660 
+Step 440: loss = 0.08(0.842 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe15df88dd0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1046  Num correct: 1041  Precision @ 1: 0.995220 
+Step 450: loss = 0.10(1.077 sec)
+WARNING:tensorflow:<tensorflow.python.ops.rnn_cell.BasicLSTMCell object at 0x7fe15cdeaed0>: Using a concatenated state is slower and will soon be deprecated.  Use state_is_tuple=True.
+  Num examples: 1158  Num correct: 1144  Precision @ 1: 0.987910 
+Step 460: loss = 0.08(1.060 sec)
+  Num examples: 1171  Num correct: 1162  Precision @ 1: 0.992314 
+Step 470: loss = 0.05(0.825 sec)
+  Num examples: 919  Num correct: 909  Precision @ 1: 0.989119 
+Step 480: loss = 0.04(0.745 sec)
+  Num examples: 921  Num correct: 906  Precision @ 1: 0.983713 
+Step 490: loss = 0.14(0.781 sec)
+  Num examples: 1093  Num correct: 1081  Precision @ 1: 0.989021 
+Step 500: loss = 0.08(1.065 sec)
+  Num examples: 1237  Num correct: 1216  Precision @ 1: 0.983023 
+Step 510: loss = 0.04(0.767 sec)
+  Num examples: 871  Num correct: 846  Precision @ 1: 0.971297 
+Step 520: loss = 0.05(0.874 sec)
+  Num examples: 1002  Num correct: 991  Precision @ 1: 0.989022 
+Step 530: loss = 0.06(0.863 sec)
+  Num examples: 1077  Num correct: 1047  Precision @ 1: 0.972145 
+Step 540: loss = 0.05(0.772 sec)
+  Num examples: 974  Num correct: 967  Precision @ 1: 0.992813 
+Step 550: loss = 0.09(1.017 sec)
+  Num examples: 1124  Num correct: 1114  Precision @ 1: 0.991103 
+Step 560: loss = 0.04(1.041 sec)
+  Num examples: 1011  Num correct: 1008  Precision @ 1: 0.997033 
+Step 570: loss = 0.07(0.872 sec)
+  Num examples: 922  Num correct: 911  Precision @ 1: 0.988069 
+Step 580: loss = 0.07(1.138 sec)
+  Num examples: 1090  Num correct: 1087  Precision @ 1: 0.997248 
+Step 590: loss = 0.05(0.837 sec)
+  Num examples: 951  Num correct: 948  Precision @ 1: 0.996845 
+Step 600: loss = 0.08(1.004 sec)
+  Num examples: 949  Num correct: 937  Precision @ 1: 0.987355 
+Step 610: loss = 0.05(0.804 sec)
+  Num examples: 1033  Num correct: 1023  Precision @ 1: 0.990319 
+Step 620: loss = 0.03(0.810 sec)
+  Num examples: 1038  Num correct: 1022  Precision @ 1: 0.984586 
+Step 630: loss = 0.06(0.797 sec)
+  Num examples: 1056  Num correct: 1049  Precision @ 1: 0.993371 
+Step 640: loss = 0.07(0.670 sec)
+  Num examples: 1104  Num correct: 1089  Precision @ 1: 0.986413 
+Done training for 5 epochs, 650 steps.
+
+Process finished with exit code 0
